@@ -2,6 +2,8 @@
 
 A modular Windows project designed for educational research into **DLL Sideloading** and dynamic library injection.
 
+![RustDoLL Banner](assets/banner.png)
+
 ## Educational Purpose
 
 This project provides a sandbox for understanding:
