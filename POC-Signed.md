@@ -1,6 +1,6 @@
 ### Technical Analysis: The VHD > ISO > RTLO > Hidden DLL Sideloading Chain
 
-This execution sequence is a highly calculated stack of defense-evasion tactics. Each individual mechanism is designed to solve a specific problem for an attacker-ranging from defeating secure email gateways to tricking the end-user and bypassing endpoint detection (EDR).
+This execution sequence is a highly calculated stack of defense-evasion tactics. Each individual mechanism is designed to solve a specific problem for an attacker-ranging from defeating secure email gateways to tricking the end-user.
 
 ![Execution Chain](assets/CanonSignedEXELoader-Calc-VHD-ISO-Chain.png)
 
