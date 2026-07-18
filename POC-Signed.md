@@ -7,8 +7,8 @@ This execution sequence is a highly calculated stack of defense-evasion tactics.
 When combined, they form a highly effective initial access pipeline.
 
 1. **Delivery:** The user downloads or receives an VHD file or (VHD in Pass Protected ZIP).
-2. **First Mount:** The user double-clicks the VHD, mounting it as a second virtual hard drive. Inside are the actual execution files.
-3. **Second Mount:** The user double-clicks the ISO, mounting it as a virtual disc drive. Inside is a hidden or visible VHD (Virtual Hard Disk) file.
+2. **First Mount:** The user double-clicks the Virtual Hard Disk (VHD), mounting it as a second virtual hard drive. Inside are the actual execution files.
+3. **Second Mount:** The user double-clicks the ISO, mounting it as a virtual disc drive.
 4. **Masquerading Techniques**
 *   **File Hiding:** The malicious proxy DLL (`.dll`) is marked with the `Hidden` file attribute inside the VHD structure. This ensures that a standard user browsing the mounted drive only sees the primary launcher file.
 *   **RTLO Unicode Spoofing:** The legitimately signed Canon executable uses the Right-to-Left Override Unicode character (`U+202E`) to trick the user into thinking they are opening a safe document format:
